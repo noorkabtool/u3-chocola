@@ -1,0 +1,332 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100vw;
+}
+
+h1,
+h2 {
+  font-family: cursive;
+  margin: 0;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a.active {
+  color: rgb(221, 158, 158);
+}
+
+a:hover {
+  color: grey;
+}
+
+.nav li a {
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+.header-button {
+  background-color: rgb(229, 229, 229);
+  border-radius: 100%;
+  border: none;
+  font-size: 24px;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header-img-container {
+  width: 100vw;
+  overflow: hidden;
+  display: block;
+}
+
+#header-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  margin: 100px 30%;
+}
+
+.owners-img {
+  max-width: 600px;
+}
+
+.reviews-container {
+  padding: 70px 10%;
+  background-color: #ffe9e8;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.reviews-container h2 {
+  text-align: center;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  flex: 1 1 0;
+  width: 0;
+  text-align: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 2rem;
+  height: 300px;
+}
+
+.card-title {
+  margin: 0;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+.write-review-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review-textarea {
+  width: 60%;
+  height: 4rem;
+}
+
+.submit-review-button {
+  width: 70px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  border: 0.25px solid grey;
+}
+
+.submit-review-button:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.report {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.address-text {
+  padding: 50px;
+}
+
+.copyright-container {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+/* Presents page */
+
+.page-title {
+  text-align: center;
+  padding: 100px;
+  font-size: 100px;
+  font-family: cursive;
+}
+
+.card-deck {
+  padding: 50px;
+}
+
+/* Products page */
+
+.wrapper {
+  width: 100vw;
+  margin: 0 auto 100px auto;
+  display: flex;
+}
+
+.gallery-nav {
+  flex: 1 1 auto;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.gallery-nav a {
+  display: block;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  padding: 10px 20px;
+}
+
+.discounts a {
+  color: rgb(183, 51, 51);
+}
+
+main {
+  flex: 2 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main-presents {
+  margin: 100px auto;
+  display: flex;
+}
+
+.gallery-name {
+  font-size: 32px;
+  margin: 0 20%;
+}
+
+.gallery-name a {
+  color: black;
+  font-family: cursive;
+}
+
+.product-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 20%;
+}
+
+.main-presents .product-cards {
+  margin: 0 4rem;
+  justify-content: space-evenly;
+}
+
+.product-card {
+  border: 1px solid grey;
+  border-radius: 10px;
+  max-width: 300px;
+  background-color: rgb(231, 231, 231);
+}
+
+.product-image-container {
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  height: 240px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.product-title {
+  margin: 0;
+}
+
+.card-actions {
+  display: flex;
+}
+
+.card-actions button {
+  background-color: rgb(229, 229, 229);
+  border-radius: 100%;
+  border: none;
+  font-size: 24px;
+}
+
+.card-actions button:hover {
+  cursor: pointer;
+}
+
+/* contact us page */
+
+.form-container {
+  width: 100%;
+  min-height: 60vh;
+  margin: 50px 0;
+}
+
+.form-container form {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+input.form-control {
+  height: 2rem;
+  padding: 0.375rem 0.75rem;
+}

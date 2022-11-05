@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">PRODUCTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="presents.html">PRESENTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">CONTACT</a>
+        </li>
+        <button class="header-button">❤️</button>
+        <button class="header-button">🛒</button>
+      </ul>
+    </header>
+
+    <h1 class="page-title">Contact Us</h1>
+
+    <div class="form-container">
+      <form>
+        <div class="form-group">
+          <label for="nameInput">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nameInput"
+            placeholder="enter name here"
+          />
+        </div>
+        <div class="form-group">
+          <label for="emailInput">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="emailInput"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="contactDate">Contact date</label>
+          <input type="datetime-local" class="form-control" id="contactDate" />
+        </div>
+        <div class="form-group">
+          <label for="messageInput">Message</label>
+          <textarea class="form-control" id="messageInput" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-light">Send</button>
+      </form>
+    </div>
+
+    <footer>
+      <p class="address-text">
+        Address: Gamla Svedalavägen 48180 Malmö, Sweden.
+        <br />Telephone: 0787934512 <br />Opening hours: Mon-Sat 09:00 - 18:00
+      </p>
+
+      <div class="copyright-container">
+        <p class="copyright-text">© copyright 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>
