@@ -61,15 +61,14 @@ a:hover {
   display: block;
 }
 
-.header-button {
+.nav li a.header-button {
   background-color: rgb(229, 229, 229);
   border-radius: 100%;
   border: none;
-  font-size: 24px;
   width: 45px;
   height: 45px;
   padding: 10px;
-  cursor: pointer;
+  text-align: center;
 }
 
 .header-img-container {
