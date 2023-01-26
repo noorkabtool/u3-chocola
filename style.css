@@ -305,6 +305,11 @@ main {
   cursor: pointer;
 }
 
+.products-intro {
+  width: 50%;
+  margin-left: 150px;
+}
+
 /* contact us page */
 
 .form-container {
